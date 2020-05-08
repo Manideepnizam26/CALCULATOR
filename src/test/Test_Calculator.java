@@ -1,5 +1,5 @@
-package test;
-import main.Calculator;
+package src.test;
+import src.main.Calculator;
 
 public class Test_Calculator{
     private Calculator test_calculator;
