@@ -1,6 +1,6 @@
-package src.test.calculator;
+package calculator;
 
-import src.main.calculator.Calculator;
+import calculator.Calculator;
 
 import org.junit.*;
 

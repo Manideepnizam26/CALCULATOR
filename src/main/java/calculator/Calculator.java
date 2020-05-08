@@ -1,4 +1,4 @@
-package src.main.calculator;
+package calculator;
 
 
 public class Calculator{
