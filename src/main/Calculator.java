@@ -1,3 +1,7 @@
+package main;
+
+
+
 public class Calculator{
 
 
@@ -7,6 +11,7 @@ public class Calculator{
 
     public static void main(String arg[]){
         System.out.println("Calculator program");
+        // System.out.println("6 + 3 = " + add(6, 3));    
     }
 
 }
