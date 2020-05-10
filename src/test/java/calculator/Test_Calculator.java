@@ -21,6 +21,16 @@ public class Test_Calculator{
     }
 
 
+    @Test
+    public void test_subtract(){
+        int a = 10;
+        int b = 5;
+        int c = 5;
+        int _c = test_calculator.subtract(a,b);
+        Assert.assertEquals(_c,c);;
+    }
+
+
 
     public static void main(String args[]){
         System.out.println("Test program");
