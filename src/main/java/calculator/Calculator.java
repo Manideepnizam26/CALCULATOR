@@ -12,8 +12,12 @@ public class Calculator{
         return num1-num2;
     }
 
+    public static int multiply(int num1,int num2){
+        return num1*num2;
+    }
+
     public static void main(String arg[]){
-        System.out.println("Calculator program");
+        System.out.println("Calculator file main");
         // System.out.println("6 + 3 = " + add(6, 3));    
     }
 

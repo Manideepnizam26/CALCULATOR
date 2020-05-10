@@ -16,8 +16,8 @@ public class Test_Calculator{
         int a = 2;
         int b = 3;
         int c = 5;
-        int sum = test_calculator.add(a,b);
-        Assert.assertEquals(sum,c);;
+        int _c = test_calculator.add(a,b);
+        Assert.assertEquals(_c,c);;
     }
 
 
@@ -31,8 +31,17 @@ public class Test_Calculator{
     }
 
 
+    @Test
+    public void test_multiply(){
+        int a = 10;
+        int b = 5;
+        int c = 50;
+        int _c = test_calculator.multiply(a,b);
+        Assert.assertEquals(_c,c);;
+    }
+
 
     public static void main(String args[]){
-        System.out.println("Test program");
+        System.out.println("Calculator test file main");
     }
 }
