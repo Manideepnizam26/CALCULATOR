@@ -40,6 +40,22 @@ public class Test_Calculator{
         Assert.assertEquals(_c,c);;
     }
 
+    @Test
+    public void test_divide(){
+        float a = 10;
+        float b = 5;
+        float c = 2;
+        float _c = test_calculator.divide(a,b);
+        Assert.assertEquals(_c,c,0.00005);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void test_divide_exception(){
+        float a = 10;
+        float b = 0;
+        test_calculator.divide(a,b);
+    }
+
 
     public static void main(String args[]){
         System.out.println("Calculator test file main");
