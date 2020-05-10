@@ -5,7 +5,6 @@ COPY pom.xml .
 COPY src/ /build/src/
 RUN mvn install
 
-# Step : Package image
 FROM openjdk:11-jre
 
 COPY --from=builder /build/target/CALCULATOR_ASSIGNMENT-1.0-SNAPSHOT.jar .
